@@ -54,3 +54,24 @@ h4{
     padding: 0 0.7rem;
 
 }
+
+div .banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner {
+    /* margin-top: 50px; */
+    /* left: 0px;
+    width: 1358px;
+    height: 475px; */
+    /* min-width: 100vw; */
+    
+    background: url('/assets/banner.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    /* width: 100vw; */
+    /* display: flex; */
+}
