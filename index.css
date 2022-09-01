@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Poppins:wght@200;400;600&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#f27935;
+    padding: 10px;
+}
+
+.nav img{
+    padding-right: 1rem;
+    width: 200px;   
+}
+
+.nav input {
+    width: 20rem;
+    height: 3rem;
+    padding: 10px;
+}
+
+.material-icons { color: #ffffff; }
+
+.nav-1{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.icon{
+     display: flex;
+     align-items: center;
+    padding-right: 1rem;
+}
+
+h4{
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 0.7rem;
+
+}
